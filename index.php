@@ -74,7 +74,7 @@ if(isset($_SESSION['customer_login']))
         <div class="user_login">
             <form action='' method='POST'>
         <table align="left">
-            <tr><td><span class="caption">Secure Login</span></td></tr>
+            <tr><td><span class="caption">Connexion sécurisee</span></td></tr>
             <tr><td colspan="2"><hr></td></tr>
             <tr><td>Nom d'utilisateur:</td></tr>
             <tr><td><input type="text" name="uname" required></td> </tr>
@@ -90,7 +90,7 @@ if(isset($_SESSION['customer_login']))
             <img src="home.jpg" height="100%" width="100%"/>
             <div class="text">
                 
-                <a href="safeonlinebanking.php"><h3>Click to read safe online banking tips</h3></a>
+                <a href="safeonlinebanking.php"><h3>Cliquez pour lire des conseils bancaires en ligne sécurisés</h3></a>
     <a href="t&c.php"><h3>Termes et conditions d'utilisation</h3></a>
     <a href="faq.php"><h3>FAQ'S</h3></a>
     
@@ -100,12 +100,12 @@ if(isset($_SESSION['customer_login']))
             
             <div class="left_panel">
                 <p>Notre portail de banque en ligne offre des services bancaires personnels qui vous donnent un contrôle total sur tous vos besoins bancaires en ligne.</p>
-                <h3>Features</h3>
+                <h3>Fonctionnalittes </h3>
                 <ul>
-                    <li>Registration for online banking</li>
-                    <li>Adding Beneficiary account</li>
-                    <li>Funds Transfer</li>
-                    <li>Last Login record</li>
+                    <li>Inscription à la banque en ligne</li>
+                    <li>Ajouter un compte bénéficiaire</li>
+                    <li>Transfert de fonds</li>
+                    <li>Dernier enregistrement de connexion</li>
                     <li>Mini Statement</li>
                     <li>ATM and Cheque Book</li>
                     <li>Staff approval Feature</li>
@@ -117,12 +117,13 @@ if(isset($_SESSION['customer_login']))
             
             <div class="right_panel">
                 
-                    <h3>PERSONAL BANKING</h3>
+                    <h3>BANQUE PERSONNELLE</h3>
                     <ul>
-                        <li>Personal Banking application provides features to administer and manage non personal accounts online.</li>
-                        <li>Phishing is a fraudulent attempt, usually made through email, phone calls, SMS etc seeking your personal and confidential information.</li>
-                        <li>Online Bank or any of its representative never sends you email/SMS or calls you over phone to get your personal information, password or one time SMS (high security) password.</li>
-                        <li>Any such e-mail/SMS or phone call is an attempt to fraudulently withdraw money from your account through Internet Banking. Never respond to such email/SMS or phone call. Please report immediately on reportif you receive any such email/SMS or Phone call. Please lock your user access immediately.
+                        <li>
+                        L'application Personal Banking fournit des fonctionnalités pour administrer et gérer les comptes non personnels en ligne.</li>
+                        <li>Le phishing est une tentative frauduleuse, généralement effectuée par courrier électronique, appel téléphonique, SMS, etc. visant à obtenir vos informations personnelles et confidentielles.</li>
+                        <li>La banque en ligne ou l'un de ses représentants ne vous envoie jamais d'e-mails/SMS ni ne vous appelle par téléphone pour obtenir vos informations personnelles, votre mot de passe ou votre mot de passe SMS à usage unique (haute sécurité).</li>
+                        <li>Tout e-mail/SMS ou appel téléphonique constitue une tentative de retirer frauduleusement de l'argent de votre compte via Internet Banking. Ne répondez jamais à un tel e-mail/SMS ou appel téléphonique. Veuillez signaler immédiatement sur le rapport si vous recevez un tel e-mail/SMS ou appel téléphonique. Veuillez verrouiller immédiatement votre accès utilisateur.
 </li>
                     </ul>
                 </div>
