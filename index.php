@@ -53,7 +53,7 @@ if(isset($_SESSION['customer_login']))
         
         
         <meta charset="UTF-8">
-        <title>Online Banking System</title>
+        <title>Systeme de banque en ligne </title>
         <link rel="stylesheet" href="newcss.css">
     </head>
     <body>
@@ -65,9 +65,9 @@ if(isset($_SESSION['customer_login']))
             <div class="navbar">
                 
             <ul>
-            <li><a href="index.php">Home </a></li>
-            <li><a href="features.php">Features </a></li>
-            <li id="last"><a href="contact.php">Contact Us</a></li>
+            <li><a href="index.php">Accueil </a></li>
+            <li><a href="features.php">Fonctionnalitees </a></li>
+            <li id="last"><a href="contact.php">Nous contacter </a></li>
             </ul>
             </div>
             
@@ -76,9 +76,9 @@ if(isset($_SESSION['customer_login']))
         <table align="left">
             <tr><td><span class="caption">Secure Login</span></td></tr>
             <tr><td colspan="2"><hr></td></tr>
-            <tr><td>Username:</td></tr>
+            <tr><td>Nom d'utilisateur:</td></tr>
             <tr><td><input type="text" name="uname" required></td> </tr>
-            <tr><td>Password:</td></tr>
+            <tr><td>Mot de passe:</td></tr>
             <tr><td><input type="password" name="pwd" required></td></tr>
             
             <tr><td class="button1"><input type="submit" name="submitBtn" value="Log In" class="button"></td></tr>
@@ -91,7 +91,7 @@ if(isset($_SESSION['customer_login']))
             <div class="text">
                 
                 <a href="safeonlinebanking.php"><h3>Click to read safe online banking tips</h3></a>
-    <a href="t&c.php"><h3>Terms and conditions</h3></a>
+    <a href="t&c.php"><h3>Termes et conditions d'utilisation</h3></a>
     <a href="faq.php"><h3>FAQ'S</h3></a>
     
     
@@ -99,7 +99,7 @@ if(isset($_SESSION['customer_login']))
             </div>
             
             <div class="left_panel">
-                <p>Our internet banking portal provides personal banking services that gives you complete control over all your banking demands online.</p>
+                <p>Notre portail de banque en ligne offre des services bancaires personnels qui vous donnent un contrôle total sur tous vos besoins bancaires en ligne.</p>
                 <h3>Features</h3>
                 <ul>
                     <li>Registration for online banking</li>
